@@ -3,25 +3,25 @@
 }*/
 body {
     margin: 0;
-    padding: 0;
+    padding-bottom: 12px;
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
-    border: 2px solid red;
     width: 75%;
 }
 
 nav {
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 .nav-logo {
-    margin: 0 0 0 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     object-fit: contain;
     padding-bottom: 10px;
-    border: 2px solid red;
+    padding-top: 10px;
 }
 
 nav ul {
@@ -29,8 +29,8 @@ nav ul {
     align-items: center;
     justify-content: space-around;
     background-color: #2E8A99;
-    border-radius: 20px;
-    border: 2px solid black;
+    border-radius: 5px;
+    
 }
 
 nav ul li {
@@ -48,7 +48,6 @@ nav ul li a {
 .call-to-action-section {
     color: white;
     background-color: #2E8A99;
-    border: 2px solid red;
     margin: 90px auto;
     width: 98%;
     padding: 8px;
@@ -59,11 +58,46 @@ nav ul li a {
 .cards-columns {
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid red;
+    
 }
 
 .cards-columns p {
     padding: 0 5px;
 }
+
+
+/*Footer section*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+    height: 90px;
+    background-color: #2E8A99;
+    border-radius: 5px;
+    color: white;
+    
+
+
+}
+
+footer .footer-image-container {
+    width: 50px;
+    height: 80px;
+}
+
+footer .footer-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer p {
+    
+}
+
+
+
+
 
 /*https://github.com/PhathizweGwebu/meta-project.git*/
